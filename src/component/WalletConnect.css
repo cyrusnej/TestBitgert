@@ -1,0 +1,57 @@
+.wallet-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wallet-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.wallet-address {
+    font-weight: bold;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.wallet-address:hover {
+    text-decoration: underline;
+}
+
+.wallet-balance {
+    color: #2ebeca;
+    font-weight: bold;
+}
+
+.btn-connect {
+    background: #3867d0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-connect:hover {
+    background: #0056b3;
+}
+
+.btn-signout {
+    background: #3867d0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-signout:hover {
+    background: #2ebeca;
+}
