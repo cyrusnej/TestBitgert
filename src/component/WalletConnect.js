@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { ethers } from "ethers";
-import "./WalletConnect.css"; // Import styles
+import "./WalletConnect.css";
 
 export default function WalletConnect() {
     const [account, setAccount] = useState(null);

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import WalletConnect from "./WalletConnect"; // Import the WalletConnect component
+import WalletConnect from "./WalletConnect";
 
 function Header() {
   return (
@@ -63,7 +63,7 @@ function Header() {
         <div className="right-side">
           <ul>
             <li>
-              <WalletConnect /> {/* Using the WalletConnect component */}
+              <WalletConnect />
             </li>
           </ul>
         </div>
